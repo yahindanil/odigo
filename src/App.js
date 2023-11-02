@@ -8,6 +8,8 @@ import Benefits from "./components/Benefits";
 import Places from "./components/Places";
 import Tours from "./components/Tours";
 import TopPlaces from "./components/TopPlaces";
+import VideoBlock from "./components/VideoBlock";
+import PageFooter from "./components/PageFooter";
 
 import TestBlock from "./components/TestBlock";
 
@@ -20,6 +22,8 @@ function App() {
       <Places />
       <Tours />
       <TopPlaces />
+      <VideoBlock />
+      <PageFooter />
     </div>
   );
 }
