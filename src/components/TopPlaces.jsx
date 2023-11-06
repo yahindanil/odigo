@@ -11,15 +11,17 @@ const TopCard = ({
     <div className="flex flex-col">
       <div className="relative mb-[45px]">
         <img src={TopPlaceImg} alt={TopPlaceTitle} />
-        <div className=" flex items-center absolute bottom-0 left-0 w-full text-white leading-[24px] px-[25px] py-[16px]">
-          <h3 className="text-[18px] mr-[157px]">{TopPlaceTitle}</h3>
-          <div className="text-[16px] flex items-center mr-[14px]">
-            <span className="mr-[4px] pb-[1px]">{LikesAmmount}</span>
-            <img src="/img/svg/heart-ico.svg" />
-          </div>
-          <div className="text-[16px] flex items-center">
-            <span className="mr-[9px] pb-[1px]">{CommentsAmmount}</span>
-            <img src="/img/svg/comment-ico.svg" />
+        <div className=" flex justify-between	items-center absolute bottom-0 left-0 w-full text-white leading-[24px] px-[25px] py-[16px]">
+          <h3 className="text-[18px]">{TopPlaceTitle}</h3>
+          <div className="flex">
+            <div className="text-[16px] flex items-center mr-[14px]">
+              <span className="mr-[4px] pb-[1px]">{LikesAmmount}</span>
+              <img src="/img/svg/heart-ico.svg" />
+            </div>
+            <div className="text-[16px] flex items-center">
+              <span className="mr-[9px] pb-[1px]">{CommentsAmmount}</span>
+              <img src="/img/svg/comment-ico.svg" />
+            </div>
           </div>
         </div>
       </div>
