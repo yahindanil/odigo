@@ -45,7 +45,7 @@ const TopCard = ({
 const TopPlaces = () => {
   const topPacesData = [
     {
-      TopPlaceImg: "/img/top-place-1.jpg",
+      TopPlaceImg: "/odigo/img/top-place-1.jpg",
       TopPlaceTitle: "NAGOYA",
       LikesAmmount: "221",
       CommentsAmmount: "50",
@@ -53,7 +53,7 @@ const TopPlaces = () => {
         "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.",
     },
     {
-      TopPlaceImg: "/img/top-place-2.jpg",
+      TopPlaceImg: "/odigo/img/top-place-2.jpg",
       TopPlaceTitle: "NIIGATA",
       LikesAmmount: "221",
       CommentsAmmount: "50",
@@ -61,7 +61,7 @@ const TopPlaces = () => {
         "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.",
     },
     {
-      TopPlaceImg: "/img/top-place-3.jpg",
+      TopPlaceImg: "/odigo/img/top-place-3.jpg",
       TopPlaceTitle: "OSAKA",
       LikesAmmount: "221",
       CommentsAmmount: "50",
@@ -69,7 +69,7 @@ const TopPlaces = () => {
         "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.",
     },
     {
-      TopPlaceImg: "/img/top-place-4.jpg",
+      TopPlaceImg: "/odigo/img/top-place-4.jpg",
       TopPlaceTitle: "SAITAMA",
       LikesAmmount: "221",
       CommentsAmmount: "50",
@@ -77,7 +77,7 @@ const TopPlaces = () => {
         "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.",
     },
     {
-      TopPlaceImg: "/img/top-place-5.jpg",
+      TopPlaceImg: "/odigo/img/top-place-5.jpg",
       TopPlaceTitle: "UENO",
       LikesAmmount: "221",
       CommentsAmmount: "50",
@@ -85,7 +85,7 @@ const TopPlaces = () => {
         "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.",
     },
     {
-      TopPlaceImg: "/img/top-place-6.jpg",
+      TopPlaceImg: "/odigo/img/top-place-6.jpg",
       TopPlaceTitle: "SHIBUYA",
       LikesAmmount: "221",
       CommentsAmmount: "50",

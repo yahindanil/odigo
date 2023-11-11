@@ -8,7 +8,7 @@ const Tours = () => {
       <div className="wrapper-large">
         <div className="grid items-center grid-cols-2 gap-x-[108px] mb-[77px] max-lg:gap-x-[35px] max-sm:mb-[35px]">
           <div className="max-sm:col-span-2 max-sm:mb-[12px]">
-            <img src="/img/tour-1.jpg" alt="Tottori img"></img>
+            <img src="/odigo/img/tour-1.jpg" alt="Tottori img"></img>
           </div>
           <div className="pl-[47px] max-lg:pl-0 max-sm:col-span-2">
             <h3 className="text-[30px] leading-[40px] text-[#102746] font-medium mb-[85px] max-lg:mb-[15px]">
@@ -47,7 +47,7 @@ const Tours = () => {
             </a>
           </div>
           <div className="max-sm:col-span-2 max-sm:mb-[12px] max-sm:row-span-full">
-            <img src="/img/tour-2.jpg" alt="Kyoto’s Arashiyama img"></img>
+            <img src="/odigo/img/tour-2.jpg" alt="Kyoto’s Arashiyama img"></img>
           </div>
         </div>
       </div>

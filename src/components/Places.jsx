@@ -22,23 +22,23 @@ const PlaceCard = ({ PlaceImg, PlaceName, span, height }) => {
 const Places = () => {
   const placesData = [
     {
-      PlaceImg: "/img/place-1.jpg",
+      PlaceImg: "/odigo/img/place-1.jpg",
       PlaceName: "Mount Fuji",
     },
     {
-      PlaceImg: "/img/place-2.jpg",
+      PlaceImg: "/odigo/img/place-2.jpg",
       PlaceName: "Kyoto",
     },
     {
-      PlaceImg: "/img/place-3.jpg",
+      PlaceImg: "/odigo/img/place-3.jpg",
       PlaceName: "Tokyo",
     },
     {
-      PlaceImg: "/img/place-4.jpg",
+      PlaceImg: "/odigo/img/place-4.jpg",
       PlaceName: "Niigata",
     },
     {
-      PlaceImg: "/img/place-5.jpg",
+      PlaceImg: "/odigo/img/place-5.jpg",
       PlaceName: "Sapporo",
     },
   ];
