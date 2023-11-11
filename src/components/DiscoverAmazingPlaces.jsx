@@ -7,10 +7,10 @@ const DiscoverAmazingPlaces = () => {
   return (
     <section
       style={{ backgroundImage: `url(${IntroBg})` }}
-      className="min-h-screen bg-no-repeat bg-cover bg-center pt-[263px]"
+      className="min-h-screen bg-no-repeat bg-cover bg-center pt-[263px] max-sm:pt-[150px]"
     >
       <div className="wrapper">
-        <h1 className="text-white text-[50px] leading-[60px] max-w-[619px] mb-[22px]">
+        <h1 className="text-white text-[50px] leading-[60px] max-w-[619px] mb-[22px] max-sm:text-[32px] max-sm:leading-[48px]">
           Discover Amazing places in Japan
         </h1>
 
@@ -24,7 +24,7 @@ const DiscoverAmazingPlaces = () => {
         <form>
           <fieldset className="pb-[300px]">
             <p className="flex flex-wrap">
-              <div className="relative mr-[60px]">
+              <div className="relative mr-[60px] mb-[30px] max-sm:w-100% max-sm:mr-0">
                 <Circle className="absolute top-0 left-0 w-[20px] h-[20px] z-0" />
                 <input
                   type="text"
@@ -33,7 +33,7 @@ const DiscoverAmazingPlaces = () => {
                 ></input>
               </div>
 
-              <div className="relative mr-[60px]">
+              <div className="relative mr-[60px] mb-[30px] max-sm:w-100% max-sm:mr-0">
                 <Circle className="absolute top-0 left-0 w-[20px] h-[20px] z-0" />
                 <input
                   type="text"
@@ -44,7 +44,7 @@ const DiscoverAmazingPlaces = () => {
 
               <button
                 type="submit"
-                className="text-white text-[24px] px-[39px] pt-[15px] pb-[14px] bg-[#1B7DFF] hover:bg-[#0e66da]"
+                className="text-white text-[24px] px-[39px] pt-[15px] pb-[14px] bg-[#1B7DFF] hover:bg-[#0e66da] max-sm:w-full"
               >
                 SEARCH
               </button>
