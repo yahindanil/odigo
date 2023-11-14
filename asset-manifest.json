@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/odigo/static/css/main.66199302.css",
-    "main.js": "/odigo/static/js/main.36dc622b.js",
+    "main.js": "/odigo/static/js/main.da226e76.js",
     "static/media/intro-bg.jpg": "/odigo/static/media/intro-bg.5f965be49a6a88827d40.jpg",
     "static/media/odigo-logo.svg": "/odigo/static/media/odigo-logo.3933b471af487287430c248f52a70797.svg",
     "static/media/odigo-logo-big.svg": "/odigo/static/media/odigo-logo-big.5338fd833b090d3817057d9882eb8f56.svg",
@@ -9,10 +9,10 @@
     "static/media/circle.svg": "/odigo/static/media/circle.8947f44bed0a5c3a7e3c8c1f182bfa0b.svg",
     "static/media/arrow.svg": "/odigo/static/media/arrow.80f85fed4054a52be35442557a5c1d71.svg",
     "main.66199302.css.map": "/odigo/static/css/main.66199302.css.map",
-    "main.36dc622b.js.map": "/odigo/static/js/main.36dc622b.js.map"
+    "main.da226e76.js.map": "/odigo/static/js/main.da226e76.js.map"
   },
   "entrypoints": [
     "static/css/main.66199302.css",
-    "static/js/main.36dc622b.js"
+    "static/js/main.da226e76.js"
   ]
 }
