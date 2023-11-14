@@ -20,11 +20,11 @@ const TopCard = ({
           <div className="flex">
             <div className="text-[16px] flex items-center mr-[14px]">
               <span className="mr-[4px] pb-[1px]">{LikesAmmount}</span>
-              <img src="/img/svg/heart-ico.svg" className="mr-[4px]" />
+              <img src="/odigo/img/svg/heart-ico.svg" className="mr-[4px]" />
             </div>
             <div className="text-[16px] flex items-center">
               <span className="mr-[9px] pb-[1px]">{CommentsAmmount}</span>
-              <img src="/img/svg/comment-ico.svg" />
+              <img src="/odigo/img/svg/comment-ico.svg" />
             </div>
           </div>
         </div>
