@@ -4,7 +4,7 @@ import Arrow from "../img/svg/arrow.svg";
 
 const Tours = () => {
   return (
-    <div className="mb-[139px] max-sm:mb-[45px]">
+    <div className="mb-[139px] max-sm:mb-[45px]" id="articles">
       <div className="wrapper-large">
         <div className="grid items-center grid-cols-2 gap-x-[108px] mb-[77px] max-lg:gap-x-[35px] max-sm:mb-[35px]">
           <div className="max-sm:col-span-2 max-sm:mb-[12px]">

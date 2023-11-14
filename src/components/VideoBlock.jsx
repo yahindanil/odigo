@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoBlock = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="videos">
       <div className="max-w-[1440px] my-0 mx-auto relative">
         <div className="pt-[56.25%]"></div>
         <iframe

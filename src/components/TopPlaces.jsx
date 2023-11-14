@@ -95,7 +95,7 @@ const TopPlaces = () => {
   ];
 
   return (
-    <section>
+    <section id="locations">
       <div className="wrapper-large">
         <h2 className="relative font-medium text-[35px] leading-[42px] mb-[64px]">
           Today top places to visit

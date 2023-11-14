@@ -48,6 +48,7 @@ const PageHeader = () => {
       className={`fixed top-0 left-0 w-full z-20 transition duration-200 ease-linear pb-[20px] ${
         scrolled ? "bg-[#0E1D28]" : ""
       } `}
+      id="page-header"
     >
       <div className="wrapper pt-[56px]">
         <div className="flex flex-wrap items-end justify-between">
@@ -67,7 +68,19 @@ const PageHeader = () => {
             }`}
           >
             <ul className="flex flex-wrap text-white text-[18px] leading-[24px]">
-              <li className="mr-[82px] hover:opacity-75 max-md:w-full max-md:mr-0 max-md:mb-[30px]">
+              <li
+                className="mr-[82px] hover:opacity-75 max-md:w-full max-md:mr-0 max-md:mb-[30px]"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const ToursBlock = document.getElementById("articles");
+                  if (ToursBlock) {
+                    window.scrollTo({
+                      top: ToursBlock.offsetTop - 100,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+              >
                 <a
                   href="#!"
                   className="max-md:text-[42px] max-md:leading-[48px]"
@@ -75,7 +88,19 @@ const PageHeader = () => {
                   Articles
                 </a>
               </li>
-              <li className="mr-[82px] hover:opacity-75 max-md:w-full max-md:mr-0 max-md:mb-[30px]">
+              <li
+                className="mr-[82px] hover:opacity-75 max-md:w-full max-md:mr-0 max-md:mb-[30px]"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const TopPlacesBlock = document.getElementById("locations");
+                  if (TopPlacesBlock) {
+                    window.scrollTo({
+                      top: TopPlacesBlock.offsetTop - 100,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+              >
                 <a
                   href="#!"
                   className="max-md:text-[42px] max-md:leading-[48px]"
@@ -83,7 +108,19 @@ const PageHeader = () => {
                   Locations
                 </a>
               </li>
-              <li className="mr-[82px] hover:opacity-75 max-md:w-full max-md:mr-0 max-md:mb-[30px]">
+              <li
+                className="mr-[82px] hover:opacity-75 max-md:w-full max-md:mr-0 max-md:mb-[30px]"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const VideoBlock = document.getElementById("videos");
+                  if (VideoBlock) {
+                    window.scrollTo({
+                      top: VideoBlock.offsetTop - 100,
+                      behavior: "smooth",
+                    });
+                  }
+                }}
+              >
                 <a
                   href="#!"
                   className="max-md:text-[42px] max-md:leading-[48px]"
